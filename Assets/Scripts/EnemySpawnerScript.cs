@@ -7,16 +7,11 @@ public class EnemySpawnerScript : MonoBehaviour
 
     public GameObject enemy;
     float randX;
-    Vector2 whereToSpawn;
+    readonly float randZ = -1f;
+    Vector3 whereToSpawn;
     public float spawnRate = 4f;
     float nextSpawn = 0.0f;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -25,7 +20,7 @@ public class EnemySpawnerScript : MonoBehaviour
         {
             nextSpawn = Time.time + spawnRate;
             randX = Random.Range(-10f, 4f);
-            whereToSpawn = new Vector2 (randX, transform.position.y);
+            whereToSpawn = new Vector3 (randX, transform.position.y, randZ);
             Instantiate(enemy, whereToSpawn, Quaternion.identity);
         }
     }
