@@ -215,7 +215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 89753827}
   - component: {fileID: 89753828}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EnemySpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 89753826}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.16, y: 3.39, z: 0}
+  m_LocalPosition: {x: -12.39, y: 4.67, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1978044389}
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 974578884116649075, guid: f2bcaf7d892f0d4438ba95aad61b9939, type: 3}
-  spawnRate: 2
+  spawnRate: 10
 --- !u!1 &234630629
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,20 +410,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
-  m_LookaheadIgnoreY: 0
-  m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
+  m_LookaheadIgnoreY: 1
+  m_XDamping: 0
+  m_YDamping: 0
+  m_ZDamping: 0
   m_ScreenX: 0.395
-  m_ScreenY: 0.65
+  m_ScreenY: 0.653
   m_CameraDistance: 5
-  m_DeadZoneWidth: 0
-  m_DeadZoneHeight: 0
+  m_DeadZoneWidth: 0.058
+  m_DeadZoneHeight: 0.2
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 0.8
-  m_BiasX: 0
+  m_SoftZoneWidth: 0.109
+  m_SoftZoneHeight: 0.306
+  m_BiasX: 0.0000029217963
   m_BiasY: 0
   m_CenterOnActivate: 1
   m_GroupFramingMode: 2
@@ -643,6 +643,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &870891830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 870891831}
+  m_Layer: 8
+  m_Name: Firepoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &870891831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870891830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.099, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1022034313}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1022034312
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,6 +687,8 @@ GameObject:
   - component: {fileID: 1022034315}
   - component: {fileID: 1022034318}
   - component: {fileID: 1022034317}
+  - component: {fileID: 1022034319}
+  - component: {fileID: 1022034320}
   m_Layer: 8
   m_Name: rambo glowny boh
   m_TagString: Untagged
@@ -677,6 +709,7 @@ Transform:
   m_Children:
   - {fileID: 234630630}
   - {fileID: 1794268025}
+  - {fileID: 870891831}
   m_Father: {fileID: 1817186657}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -760,7 +793,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1022034312}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c274023587ac23e4581fca724a275ee9, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -798,7 +831,7 @@ MonoBehaviour:
     m_Bits: 55
   m_GroundCheck: {fileID: 1794268025}
   m_CeilingCheck: {fileID: 234630630}
-  m_CrouchDisableCollider: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 1022034316}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -819,6 +852,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1022034317}
   runSpeed: 40
+--- !u!114 &1022034319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022034312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccdacf05f5bcae04cb067bea406e033d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 870891831}
+  bulletPrefab: {fileID: 5418570162671775495, guid: ef47d9787f2f15d4bae0ce53ded8ae47,
+    type: 3}
+--- !u!58 &1022034320
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022034312}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: c274023587ac23e4581fca724a275ee9, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.07584}
+  serializedVersion: 2
+  m_Radius: 0.05416
 --- !u!1 &1040440743
 GameObject:
   m_ObjectHideFlags: 0
@@ -1011,7 +1075,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722659132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.017105103, y: -0.0027388334, z: -6}
+  m_LocalPosition: {x: 0.01666677, y: 0.027261138, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1162,7 +1226,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978044388}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5187373, y: 0.842458, z: -0.578125}
+  m_LocalPosition: {x: 3.5187373, y: 0.842458, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 89753827}
@@ -1204,7 +1268,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 1022034313}
+  m_LookAt: {fileID: 0}
   m_Follow: {fileID: 1022034313}
   m_Lens:
     FieldOfView: 40
@@ -1229,7 +1293,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2030106138}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.017105103, y: -0.0027388334, z: -6}
+  m_LocalPosition: {x: 0.01666677, y: 0.027261138, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 306325613}

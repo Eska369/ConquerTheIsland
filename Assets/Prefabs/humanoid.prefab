@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7314160064354021437}
   - component: {fileID: 600216516000096945}
   - component: {fileID: 3242821494814009330}
+  - component: {fileID: 589339466243957270}
   m_Layer: 0
   m_Name: humanoid
   m_TagString: Untagged
@@ -93,7 +94,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 974578884116649075}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c274023587ac23e4581fca724a275ee9, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -119,7 +120,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 974578884116649075}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c274023587ac23e4581fca724a275ee9, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -147,3 +148,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &589339466243957270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974578884116649075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db34f22f7e97d54abee5075c299bef0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathEffect: {fileID: 1755349173569476, guid: 3c45864be6a059a4a82a25e285298338,
+    type: 3}
