@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4214841386613147982}
   - component: {fileID: 60209560975518175}
   - component: {fileID: 602408770816349122}
+  - component: {fileID: 7714668510678555857}
   m_Layer: 0
   m_Name: sepisko
   m_TagString: Untagged
@@ -227,3 +228,15 @@ MonoBehaviour:
   health: 100
   deathEffect: {fileID: 1755349173569476, guid: 3c45864be6a059a4a82a25e285298338,
     type: 3}
+--- !u!114 &7714668510678555857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4642398271416589238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e02253131495584f8e0a101dc938f43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
