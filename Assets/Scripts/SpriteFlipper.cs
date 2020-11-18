@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpriteFlipper : MonoBehaviour
 {
     private SpriteRenderer mySpriteRenderer;
+    public Transform player;
 
 
     private void Awake()
@@ -16,15 +17,15 @@ public class SpriteFlipper : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        // if the A key was pressed this frame
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            // if the variable isn't empty (we have a reference to our SpriteRenderer
-            if (mySpriteRenderer != null)
-            {
+        
+        if (player.transform.position.x > mySpriteRenderer.transform.position.x)
+        {       
                 // flip the sprite
                 mySpriteRenderer.flipX = true;
-            }
+        }
+        else
+        {
+            mySpriteRenderer.flipX = false;
         }
     }
 }
