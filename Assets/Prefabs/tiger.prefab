@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 574038270115383273}
   - component: {fileID: 4348144815030649604}
   - component: {fileID: 3813054620838613782}
+  - component: {fileID: 8938631230694785829}
   m_Layer: 0
   m_Name: tiger
   m_TagString: Untagged
@@ -227,3 +228,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 0}
+--- !u!114 &8938631230694785829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244209867766987200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e02253131495584f8e0a101dc938f43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}

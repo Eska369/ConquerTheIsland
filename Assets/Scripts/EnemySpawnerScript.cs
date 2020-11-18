@@ -26,6 +26,7 @@ public class EnemySpawnerScript : MonoBehaviour
             whereToSpawn = new Vector3 (randX, transform.position.y, randZ);
             var e = Instantiate(enemy, whereToSpawn, Quaternion.identity);
             e.GetComponent<Pathfinding.AIDestinationSetter>().target = player.transform;
+            e.GetComponent<SpriteFlipper>().player = player.transform;
         }
     }
 }

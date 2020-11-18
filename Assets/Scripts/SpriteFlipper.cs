@@ -19,9 +19,10 @@ public class SpriteFlipper : MonoBehaviour
     {
         
         if (player.transform.position.x > mySpriteRenderer.transform.position.x)
-        {       
-                // flip the sprite
-                mySpriteRenderer.flipX = true;
+        {
+            // flip the sprite
+            //mySpriteRenderer.transform.localScale = new Vector3(-1, 1, 1);
+            mySpriteRenderer.flipX = true;
         }
         else
         {
