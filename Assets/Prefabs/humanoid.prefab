@@ -167,6 +167,8 @@ MonoBehaviour:
   health: 100
   deathEffect: {fileID: 1755349173569476, guid: 3c45864be6a059a4a82a25e285298338,
     type: 3}
+  player: {fileID: 2456380027446831899, guid: f2cf6ebff49ab714788381e5a6bebf79, type: 3}
+  curr: {fileID: 0}
 --- !u!114 &1990005991993128968
 MonoBehaviour:
   m_ObjectHideFlags: 0
