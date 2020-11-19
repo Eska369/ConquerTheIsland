@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Shop : MonoBehaviour
 {
     public Currency curr;
+    public GameObject player;
 
     public void Awake()
     {
-        curr = GetComponent<Currency>();
+        curr = player.GetComponent<Currency>();
     }
 
 
@@ -24,11 +26,20 @@ public class Shop : MonoBehaviour
         
     }
 
-    public void katana()
+    public void shop1Katana()
     {
         if(curr.money>= curr.katana)
         {
             curr.money -= curr.katana;
+            //katana unlock
+        }
+    }
+
+    public void shop2Gun()
+    {
+        if (curr.money >= curr.gun)
+        {
+            curr.money -= curr.gun;
             //katana unlock
         }
     }
