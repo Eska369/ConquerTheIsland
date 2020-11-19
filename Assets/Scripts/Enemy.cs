@@ -8,14 +8,14 @@ public class Enemy : MonoBehaviour
 
     public GameObject deathEffect;
 
-    public GameObject player;
-
+    public GameObject[] player;
     public Currency curr;
 
     public void Awake()
     {
-        curr = player.GetComponent<Currency>();
+        player = GameObject.FindGameObjectsWithTag("Player"); // ogarnac to
     }
+
 
     public void TakeDamage (int damage)
     {
