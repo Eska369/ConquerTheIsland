@@ -4,32 +4,30 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
-    public int maxHealth = 100;
-    public int currentHealth;
-
-    public healthBar healthBar;
-
-    // Start is called before the first frame update
-    void Start()
+    [System.Serializable]
+    public class PlayerStats
     {
-        currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+        public int Health = 100;
     }
 
-    // Update is called once per frame
-    void Update()
+    public PlayerStats playerStats = new PlayerStats();
+
+    public int fallBoundary = -20;
+
+    private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if(transform.position.y <= fallBoundary)
         {
-            TakeDamage(20);
+            DamagePlayer(9999);
         }
     }
 
-    void TakeDamage (int damage)
+    public void DamagePlayer(int damage)
     {
-        currentHealth -= damage;
-
-        healthBar.SetHealth(currentHealth);
-    }
+        playerStats.Health -= damage;
+        if(playerStats.Health <= 0)
+        {
+            GameMaster.KillPlayer(this);
+        }
+    }   
 }

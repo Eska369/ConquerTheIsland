@@ -8,14 +8,15 @@ public class Enemy : MonoBehaviour
 
     public GameObject deathEffect;
 
-    public GameObject[] player;
+    /*
+     * public GameObject[] player;
     public Currency curr;
 
     public void Awake()
     {
-        player = GameObject.FindGameObjectsWithTag("Player"); // ogarnac to
+        player = GameObject.FindGameObjectWithTag("Player"); // ogarnac to
     }
-
+    */
 
     public void TakeDamage (int damage)
     {
@@ -23,7 +24,7 @@ public class Enemy : MonoBehaviour
         if (health <= 0)
         {
             Die();
-            curr.money += 1;
+            //curr.money += 1;
         }
     }
 

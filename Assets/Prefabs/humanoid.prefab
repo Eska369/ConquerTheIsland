@@ -18,9 +18,10 @@ GameObject:
   - component: {fileID: 4693171618860899395}
   - component: {fileID: 4610195949740698789}
   - component: {fileID: 7157975133327462218}
+  - component: {fileID: 7811695086383044652}
   m_Layer: 0
   m_Name: humanoid
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -167,11 +168,6 @@ MonoBehaviour:
   health: 100
   deathEffect: {fileID: 1755349173569476, guid: 3c45864be6a059a4a82a25e285298338,
     type: 3}
-  player:
-  - {fileID: 2456380027446831899, guid: f2cf6ebff49ab714788381e5a6bebf79, type: 3}
-  - {fileID: 2456380027446831899, guid: f2cf6ebff49ab714788381e5a6bebf79, type: 3}
-  - {fileID: 2456380027446831899, guid: f2cf6ebff49ab714788381e5a6bebf79, type: 3}
-  curr: {fileID: 0}
 --- !u!114 &1990005991993128968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,7 +214,7 @@ MonoBehaviour:
   repathRate: 0.5
   canSearch: 1
   canMove: 1
-  maxSpeed: 1
+  maxSpeed: 3
   gravity: {x: NaN, y: NaN, z: NaN}
   groundMask:
     serializedVersion: 2
@@ -262,4 +258,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e02253131495584f8e0a101dc938f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 2456380027446831898, guid: f2cf6ebff49ab714788381e5a6bebf79, type: 3}
+--- !u!95 &7811695086383044652
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974578884116649075}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f24ac5f0f8ddc3744a4525b0a29109ca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
