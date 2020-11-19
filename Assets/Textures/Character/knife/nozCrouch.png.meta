@@ -1,37 +1,22 @@
 fileFormatVersion: 2
-guid: 5cabbbc9f93e12244a821ef9abfd694a
+guid: cdc04f3569ec1274991f5ee500ec4caa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 669273616431161985
-    second: rambo_crouch_0
+      213: -4468754538896833155
+    second: nozCrouch_0
   - first:
-      213: 934393123353237895
-    second: rambo_crouch_1
+      213: -7628725107712496949
+    second: nozCrouch_1
   - first:
-      213: 2495347147864424022
-    second: rambo_crouch_2
+      213: 6966629555423657242
+    second: nozCrouch_2
   - first:
-      213: 949588959417298931
-    second: rambo_crouch_3
+      213: 3742210511457161125
+    second: nozCrouch_3
   - first:
-      213: -4817348278951171291
-    second: rambo_crouch_4
-  - first:
-      213: -6403343885435286780
-    second: rambo_crouch_0
-  - first:
-      213: -2888716358753414658
-    second: rambo_crouch_1
-  - first:
-      213: -2990349690637734826
-    second: rambo_crouch_2
-  - first:
-      213: 11278273602927097
-    second: rambo_crouch_3
-  - first:
-      213: -8318264928617099193
-    second: rambo_crouch_4
+      213: -1577995611749969916
+    second: nozCrouch_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -189,12 +174,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rambo_crouch_0
+      name: nozCrouch_0
       rect:
         serializedVersion: 2
         x: 4
         y: 0
-        width: 13
+        width: 17
         height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -203,19 +188,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40bc5fd99a0c227a0800000000000000
-      internalID: -6403343885435286780
+      spriteID: d75c3a06c6bcbf1c0800000000000000
+      internalID: -4468754538896833155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rambo_crouch_1
+      name: nozCrouch_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 26
         y: 0
-        width: 13
+        width: 17
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -224,19 +209,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef194abd6c739e7d0800000000000000
-      internalID: -2888716358753414658
+      spriteID: bca61b9eee2512690800000000000000
+      internalID: -7628725107712496949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rambo_crouch_2
+      name: nozCrouch_2
       rect:
         serializedVersion: 2
-        x: 44
+        x: 48
         y: 0
-        width: 13
+        width: 17
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -245,19 +230,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65ca657ccc42086d0800000000000000
-      internalID: -2990349690637734826
+      spriteID: a1db3cc7ba07ea060800000000000000
+      internalID: 6966629555423657242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rambo_crouch_3
+      name: nozCrouch_3
       rect:
         serializedVersion: 2
-        x: 64
+        x: 70
         y: 0
-        width: 13
+        width: 17
         height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -266,19 +251,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f938c3b781182000800000000000000
-      internalID: 11278273602927097
+      spriteID: 5af032212a00fe330800000000000000
+      internalID: 3742210511457161125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rambo_crouch_4
+      name: nozCrouch_4
       rect:
         serializedVersion: 2
-        x: 84
+        x: 92
         y: 0
-        width: 13
+        width: 17
         height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -287,8 +272,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74010369e169f8c80800000000000000
-      internalID: -8318264928617099193
+      spriteID: 40094880a55d91ae0800000000000000
+      internalID: -1577995611749969916
       vertices: []
       indices: 
       edges: []

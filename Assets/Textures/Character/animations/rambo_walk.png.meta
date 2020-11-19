@@ -20,6 +20,24 @@ TextureImporter:
   - first:
       213: -7821266459456338574
     second: rambo_walk_5
+  - first:
+      213: 5108261237510632843
+    second: rambo_walk_0
+  - first:
+      213: 7454807460613914404
+    second: rambo_walk_1
+  - first:
+      213: -8868707194945191478
+    second: rambo_walk_2
+  - first:
+      213: -6093635629031497469
+    second: rambo_walk_3
+  - first:
+      213: 8558189417622056931
+    second: rambo_walk_4
+  - first:
+      213: 6499236783081210951
+    second: rambo_walk_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -180,9 +198,9 @@ TextureImporter:
       name: rambo_walk_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 4
         y: 0
-        width: 20
+        width: 13
         height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -191,8 +209,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db7e1bbd74736ac20800000000000000
-      internalID: 3217319765570873277
+      spriteID: b85f7b1e78034e640800000000000000
+      internalID: 5108261237510632843
       vertices: []
       indices: 
       edges: []
@@ -201,9 +219,9 @@ TextureImporter:
       name: rambo_walk_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 24
         y: 0
-        width: 20
+        width: 13
         height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -212,8 +230,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcb67e515b5b84e20800000000000000
-      internalID: 3335115313429048269
+      spriteID: 42ff2de53ebc47760800000000000000
+      internalID: 7454807460613914404
       vertices: []
       indices: 
       edges: []
@@ -222,10 +240,10 @@ TextureImporter:
       name: rambo_walk_2
       rect:
         serializedVersion: 2
-        x: 40
+        x: 44
         y: 0
-        width: 20
-        height: 26
+        width: 13
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,8 +251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25e435f2553d14f00800000000000000
-      internalID: 1099392146874781266
+      spriteID: ac1475c6bc50ce480800000000000000
+      internalID: -8868707194945191478
       vertices: []
       indices: 
       edges: []
@@ -243,10 +261,10 @@ TextureImporter:
       name: rambo_walk_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 64
         y: 0
-        width: 20
-        height: 26
+        width: 13
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,8 +272,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e41a7704c18df1ad0800000000000000
-      internalID: -2729225233310965426
+      spriteID: 301e9ec4eae0f6ba0800000000000000
+      internalID: -6093635629031497469
       vertices: []
       indices: 
       edges: []
@@ -264,9 +282,9 @@ TextureImporter:
       name: rambo_walk_4
       rect:
         serializedVersion: 2
-        x: 80
+        x: 84
         y: 0
-        width: 20
+        width: 13
         height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -275,8 +293,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f81112c330519150800000000000000
-      internalID: 5877567171924662519
+      spriteID: 3efaedd9eebc4c670800000000000000
+      internalID: 8558189417622056931
       vertices: []
       indices: 
       edges: []
@@ -285,9 +303,9 @@ TextureImporter:
       name: rambo_walk_5
       rect:
         serializedVersion: 2
-        x: 100
+        x: 104
         y: 0
-        width: 20
+        width: 13
         height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -296,8 +314,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2758d6e0897457390800000000000000
-      internalID: -7821266459456338574
+      spriteID: 74445b67b6de13a50800000000000000
+      internalID: 6499236783081210951
       vertices: []
       indices: 
       edges: []

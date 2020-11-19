@@ -11,10 +11,42 @@ public class EnemySpawnerScript : MonoBehaviour
     readonly float randZ = -1f;
     Vector3 whereToSpawn;
     public float spawnRate = 5f;
-    float nextSpawn = 0.0f;
+    float nextSpawn = 5.0f;
     public float leftOne = -12f;
     public float rightOne = 14f;
 
+    ////WAVES
+    //public int Waves;
+    //public int totalWaves = 5;
+    //private int numWaves = 0;
+    //public float timeTillWave = 0.0f;
+    //public float waveTimer = 30f;
+
+    ////ID SPAWNER
+    //private int SpawnID;
+
+    ////ENEMYS GAMEOBJECTS
+    //public GameObject Enemy1;
+    //public GameObject Enemy2;
+    //public GameObject Enemy3;
+    //public GameObject Enemy4;
+    //public GameObject Enemy5;
+
+    ////STATEMENTS
+    //public int totalEnemy = 10;
+    //private int numEnemy = 0;
+    //private int spawnedEnemy = 0;
+
+    //public bool Spawn = true;
+
+
+    //private void Start()
+    //{
+    //    if (Spawn)
+    //    {
+    //        spawnEnemy();
+    //    }
+    //}
 
     // Update is called once per frame
     void Update()
@@ -29,4 +61,9 @@ public class EnemySpawnerScript : MonoBehaviour
             e.GetComponent<SpriteFlipper>().player = player.transform;
         }
     }
+
+    //private void spawnEnemy()
+    //{
+    //    GameObject Enemy
+    //}
 }

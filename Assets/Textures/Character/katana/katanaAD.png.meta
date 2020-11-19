@@ -1,37 +1,28 @@
 fileFormatVersion: 2
-guid: 5cabbbc9f93e12244a821ef9abfd694a
+guid: 47d2f49d67a191c459b1fc08475e7a01
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 669273616431161985
-    second: rambo_crouch_0
+      213: 7513076639621116652
+    second: katanaAD_0
   - first:
-      213: 934393123353237895
-    second: rambo_crouch_1
+      213: -6347133382309763806
+    second: katanaAD_1
   - first:
-      213: 2495347147864424022
-    second: rambo_crouch_2
+      213: -8517601221737076035
+    second: katanaAD_2
   - first:
-      213: 949588959417298931
-    second: rambo_crouch_3
+      213: 8683714852680010864
+    second: katanaAD_3
   - first:
-      213: -4817348278951171291
-    second: rambo_crouch_4
+      213: 3006662492804296200
+    second: katanaAD_4
   - first:
-      213: -6403343885435286780
-    second: rambo_crouch_0
+      213: -1872830344559469050
+    second: katanaAD_5
   - first:
-      213: -2888716358753414658
-    second: rambo_crouch_1
-  - first:
-      213: -2990349690637734826
-    second: rambo_crouch_2
-  - first:
-      213: 11278273602927097
-    second: rambo_crouch_3
-  - first:
-      213: -8318264928617099193
-    second: rambo_crouch_4
+      213: 6430867397695498772
+    second: katanaAD_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -189,12 +180,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rambo_crouch_0
+      name: katanaAD_0
       rect:
         serializedVersion: 2
         x: 4
         y: 0
-        width: 13
+        width: 23
         height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -203,19 +194,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40bc5fd99a0c227a0800000000000000
-      internalID: -6403343885435286780
+      spriteID: ce2f6e2d56fc34860800000000000000
+      internalID: 7513076639621116652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rambo_crouch_1
+      name: katanaAD_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 34
         y: 0
-        width: 13
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225276d31d37ae7a0800000000000000
+      internalID: -6347133382309763806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katanaAD_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 19
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -224,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef194abd6c739e7d0800000000000000
-      internalID: -2888716358753414658
+      spriteID: dbaade721d66bc980800000000000000
+      internalID: -8517601221737076035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rambo_crouch_2
+      name: katanaAD_3
       rect:
         serializedVersion: 2
-        x: 44
+        x: 94
         y: 0
-        width: 13
-        height: 24
+        width: 15
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65ca657ccc42086d0800000000000000
-      internalID: -2990349690637734826
+      spriteID: 07c86c476a0c28870800000000000000
+      internalID: 8683714852680010864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rambo_crouch_3
+      name: katanaAD_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 124
         y: 0
-        width: 13
-        height: 23
+        width: 18
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +278,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f938c3b781182000800000000000000
-      internalID: 11278273602927097
+      spriteID: 80e27137b9fc9b920800000000000000
+      internalID: 3006662492804296200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rambo_crouch_4
+      name: katanaAD_5
       rect:
         serializedVersion: 2
-        x: 84
+        x: 154
         y: 0
-        width: 13
-        height: 21
+        width: 25
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,8 +299,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74010369e169f8c80800000000000000
-      internalID: -8318264928617099193
+      spriteID: 60ed5fb69be5206e0800000000000000
+      internalID: -1872830344559469050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katanaAD_6
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ae74573d70f3950800000000000000
+      internalID: 6430867397695498772
       vertices: []
       indices: 
       edges: []

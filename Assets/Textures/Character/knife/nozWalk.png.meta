@@ -1,37 +1,25 @@
 fileFormatVersion: 2
-guid: 5cabbbc9f93e12244a821ef9abfd694a
+guid: 5c47336f151544f419555e58ca239841
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 669273616431161985
-    second: rambo_crouch_0
+      213: -7096489293056744349
+    second: nozWalk_0
   - first:
-      213: 934393123353237895
-    second: rambo_crouch_1
+      213: -8080370424421119396
+    second: nozWalk_1
   - first:
-      213: 2495347147864424022
-    second: rambo_crouch_2
+      213: 3590910856351874470
+    second: nozWalk_2
   - first:
-      213: 949588959417298931
-    second: rambo_crouch_3
+      213: 5002744075487892579
+    second: nozWalk_3
   - first:
-      213: -4817348278951171291
-    second: rambo_crouch_4
+      213: 222852037890128545
+    second: nozWalk_4
   - first:
-      213: -6403343885435286780
-    second: rambo_crouch_0
-  - first:
-      213: -2888716358753414658
-    second: rambo_crouch_1
-  - first:
-      213: -2990349690637734826
-    second: rambo_crouch_2
-  - first:
-      213: 11278273602927097
-    second: rambo_crouch_3
-  - first:
-      213: -8318264928617099193
-    second: rambo_crouch_4
+      213: 6173039159324389679
+    second: nozWalk_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -189,12 +177,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rambo_crouch_0
+      name: nozWalk_0
       rect:
         serializedVersion: 2
         x: 4
         y: 0
-        width: 13
+        width: 17
         height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -203,19 +191,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40bc5fd99a0c227a0800000000000000
-      internalID: -6403343885435286780
+      spriteID: 3646df63694348d90800000000000000
+      internalID: -7096489293056744349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rambo_crouch_1
+      name: nozWalk_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 26
         y: 0
-        width: 13
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a8ece19e1ccdf80800000000000000
+      internalID: -8080370424421119396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nozWalk_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 17
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -224,20 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef194abd6c739e7d0800000000000000
-      internalID: -2888716358753414658
+      spriteID: 6ad72fcf56a75d130800000000000000
+      internalID: 3590910856351874470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rambo_crouch_2
+      name: nozWalk_3
       rect:
         serializedVersion: 2
-        x: 44
+        x: 70
         y: 0
-        width: 13
-        height: 24
+        width: 17
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +254,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65ca657ccc42086d0800000000000000
-      internalID: -2990349690637734826
+      spriteID: 36455a12b315d6540800000000000000
+      internalID: 5002744075487892579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rambo_crouch_3
+      name: nozWalk_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 92
         y: 0
-        width: 13
-        height: 23
+        width: 17
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f938c3b781182000800000000000000
-      internalID: 11278273602927097
+      spriteID: 1aab9eb6fbab71300800000000000000
+      internalID: 222852037890128545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rambo_crouch_4
+      name: nozWalk_5
       rect:
         serializedVersion: 2
-        x: 84
+        x: 114
         y: 0
-        width: 13
-        height: 21
+        width: 17
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,8 +296,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74010369e169f8c80800000000000000
-      internalID: -8318264928617099193
+      spriteID: f213b14c86a0ba550800000000000000
+      internalID: 6173039159324389679
       vertices: []
       indices: 
       edges: []

@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: 7065419722187208460
     second: rambo_idle_3
+  - first:
+      213: 8151901645642965097
+    second: rambo_idle_0
+  - first:
+      213: 8878735530671078637
+    second: rambo_idle_1
+  - first:
+      213: 6470170279417305588
+    second: rambo_idle_2
+  - first:
+      213: 167536353644445034
+    second: rambo_idle_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -174,9 +186,9 @@ TextureImporter:
       name: rambo_idle_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 4
         y: 0
-        width: 20
+        width: 13
         height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -185,8 +197,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5072cfe6282decc60800000000000000
-      internalID: 7840435458948212485
+      spriteID: 960a8782b5f512170800000000000000
+      internalID: 8151901645642965097
       vertices: []
       indices: 
       edges: []
@@ -195,10 +207,10 @@ TextureImporter:
       name: rambo_idle_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 24
         y: 0
-        width: 20
-        height: 26
+        width: 13
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,8 +218,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd90f086c04eb2040800000000000000
-      internalID: 4624040184362502621
+      spriteID: decf9407cea973b70800000000000000
+      internalID: 8878735530671078637
       vertices: []
       indices: 
       edges: []
@@ -216,10 +228,10 @@ TextureImporter:
       name: rambo_idle_2
       rect:
         serializedVersion: 2
-        x: 40
+        x: 44
         y: 0
-        width: 20
-        height: 26
+        width: 13
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,8 +239,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e223974a17d89840800000000000000
-      internalID: 5231167475060777698
+      spriteID: 4f955f4b699aac950800000000000000
+      internalID: 6470170279417305588
       vertices: []
       indices: 
       edges: []
@@ -237,10 +249,10 @@ TextureImporter:
       name: rambo_idle_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 64
         y: 0
-        width: 20
-        height: 26
+        width: 13
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,8 +260,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c07f10a9dc96d0260800000000000000
-      internalID: 7065419722187208460
+      spriteID: a6df0fd0d65335200800000000000000
+      internalID: 167536353644445034
       vertices: []
       indices: 
       edges: []
