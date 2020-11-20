@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4907828528271114167}
   - component: {fileID: 5015298598128967672}
   - component: {fileID: 6788946428148522885}
+  - component: {fileID: 3651049610503258037}
   m_Layer: 0
   m_Name: wolf
   m_TagString: Untagged
@@ -211,9 +212,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4db34f22f7e97d54abee5075c299bef0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  deathEffect: {fileID: 1755349173569476, guid: 3c45864be6a059a4a82a25e285298338,
-    type: 3}
+  stats:
+    maxHealth: 100
+  statusIndicator: {fileID: 0}
 --- !u!114 &5015298598128967672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,3 +242,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!95 &3651049610503258037
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5516696285447086809}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2b83ac08ca4bd6247a3fd5631360fb58, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
