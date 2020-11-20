@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,5 +29,15 @@ public class GameMaster : MonoBehaviour
     {
         Destroy(player.gameObject);
         gm.StartCoroutine (gm.RespawnPlayer());
+    }
+
+    internal static void KillEnemy(Enemy.EnemyStats enemyStats)
+    {
+        throw new NotImplementedException();
+    }
+
+    public static void KillEnemy(Enemy enemy)
+    {
+        Destroy(enemy.gameObject);
     }
 }

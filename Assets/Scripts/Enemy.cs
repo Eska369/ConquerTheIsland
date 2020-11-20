@@ -1,37 +1,54 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
-    public int health = 100;
 
-    public GameObject deathEffect;
+	[System.Serializable]
+	public class EnemyStats
+	{
+		public int maxHealth = 100;
 
-    /*
-     * public GameObject[] player;
-    public Currency curr;
+		private int _curHealth;
+		public int curHealth
+		{
+			get { return _curHealth; }
+			set { _curHealth = Mathf.Clamp(value, 0, maxHealth); }
+		}
 
-    public void Awake()
-    {
-        player = GameObject.FindGameObjectWithTag("Player"); // ogarnac to
-    }
-    */
+		public void Init()
+		{
+			curHealth = maxHealth;
+		}
+	}
 
-    public void TakeDamage (int damage)
-    {
-        health -= damage;
-        if (health <= 0)
-        {
-            Die();
-            //curr.money += 1;
-        }
-    }
+	public EnemyStats stats = new EnemyStats();
 
-    void Die()
-    {
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
-    }
-    
+	[Header("Optional: ")]
+	[SerializeField]
+	private StatusIndicator statusIndicator;
+
+	void Start()
+	{
+		stats.Init();
+
+		if (statusIndicator != null)
+		{
+			statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
+		}
+	}
+
+	public void DamageEnemy(int damage)
+	{
+		stats.curHealth -= damage;
+		if (stats.curHealth <= 0)
+		{
+			GameMaster.KillEnemy(this);
+		}
+
+		if (statusIndicator != null)
+		{
+			statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
+		}
+	}
 }
